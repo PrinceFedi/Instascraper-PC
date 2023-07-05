@@ -66,7 +66,7 @@ You should run `login_script.py` first to set up your Instagram session. After t
 
 Remember to replace `<script_name.py>` with the name of the script you're running:
 ```bash
-    python src/<script_name.py>
+python src/<script_name.py>
 ```
 ### `login_script.py`
 
