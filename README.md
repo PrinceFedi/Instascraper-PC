@@ -33,8 +33,9 @@ You'll need the following:
 2. Navigate to the project's directory.
 3. Run the following command to install the necessary Python libraries:
 
-   ```bash
-   pip3 install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
+```
 
 ### Note:
 
