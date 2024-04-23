@@ -47,6 +47,7 @@ for filename in os.listdir(folder_path):
     ws.append([file_name_like_count, caption, like_count, comment_count, comments])
 
 
-output_file = 'insta_data.xlsx'
+output_file = output_file = input('Please enter the desired name for your CSV file (for example, "my_data.xlsx"): ')
 wb.save(output_file)
 print("IT works: ", output_file)
+

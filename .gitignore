@@ -1,1 +1,10 @@
-venv/
+
+Copy code
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.py
+!requirements.txt
+!README.md
