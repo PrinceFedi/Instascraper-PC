@@ -1,9 +1,7 @@
-
-Copy code
-# Ignore everything
-*
-
-# But not these files...
+# Exclude everything but core Python files and readme to avoid 
+# pushing crawled data.
+/*
+!/src
 !.gitignore
 !*.py
 !requirements.txt

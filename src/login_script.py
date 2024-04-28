@@ -14,6 +14,7 @@ def get_cookiefile():
     default_cookiefile = {
         "Windows": "~/AppData/Roaming/Mozilla/Firefox/Profiles/*/cookies.sqlite",
         "Darwin": "~/Library/Application Support/Firefox/Profiles/*/cookies.sqlite",
+        "Linux": "~/snap/firefox/common/.mozilla/firefox/*/cookies.sqlite",
     }.get(system(), "~/.mozilla/firefox/*/cookies.sqlite")
     cookiefiles = glob(expanduser(default_cookiefile))
     if not cookiefiles:
